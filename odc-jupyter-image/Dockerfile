@@ -24,7 +24,7 @@ RUN pip3 install \
     folium \
     nbgitpuller \
     geopandas \
-    scikit-image==0.14.2 \
+    scikit-image==0.14.1 \
     seaborn \
     fiona \
     ipyleaflet \
