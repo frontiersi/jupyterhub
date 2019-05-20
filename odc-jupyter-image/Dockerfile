@@ -30,6 +30,7 @@ RUN pip3 install \
     geopy \
     graphviz \
     rasterstats \
+    hdmedians \
     https://github.com/Kirill888/wk-misc/releases/download/v1.0/kk_dtools-1-py3-none-any.whl \
     numexpr \
     cligj  --upgrade \
