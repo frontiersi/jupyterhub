@@ -24,7 +24,7 @@ RUN pip3 install \
     folium \
     nbgitpuller \
     geopandas \
-    scikit-image==0.14.1 \
+    scikit-image \
     scipy==1.2.1 \
     sklearn \
     seaborn \
