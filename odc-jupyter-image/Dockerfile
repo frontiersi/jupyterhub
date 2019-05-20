@@ -25,6 +25,8 @@ RUN pip3 install \
     nbgitpuller \
     geopandas \
     scikit-image==0.14.1 \
+    scipy==1.2.1 \
+    sklearn \
     seaborn \
     fiona \
     ipyleaflet \
