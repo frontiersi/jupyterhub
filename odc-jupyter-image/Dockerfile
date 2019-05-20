@@ -16,7 +16,7 @@ RUN cd /tmp;git clone https://github.com/GeoscienceAustralia/fc;cd fc;pip3 insta
 
 # Get dependencies for Jupyter
 RUN pip3 install \
-    tornado \
+    tornado==5.1.1 \
     jupyter \
     jupyterhub \
     jupyterlab \
@@ -24,7 +24,8 @@ RUN pip3 install \
     folium \
     nbgitpuller \
     geopandas \
-    scikit-image \
+    scikit-image==0.14.2 \
+    seaborn \
     fiona \
     ipyleaflet \
     geopy \
